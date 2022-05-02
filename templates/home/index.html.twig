@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<div class="alert alert-dismissible alert-warning text-center">
+    <h4 class="alert-heading" >Bienvenue</h4>
+    <p class="mb-0">Choississez parmis ces options.</a>.</p>
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <a href="/student">
+    <button type="button" class="btn btn-warning col-12">Acceder au formulaire</button>
+    </a>
+    <a href="/admin">
+    <button type="button" class="btn btn-warning col-12">Acceder au CRUD</button>
+    </a>
+    <a href="/api">
+    <button type="button" class="btn btn-warning col-12" >Acceder à l'api</button>
+  </a>
+  </div>
+  
+{% endblock %}
